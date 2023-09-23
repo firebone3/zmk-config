@@ -109,7 +109,7 @@ label= "NAVI"                              ;
 
                 &kp CAPS    &kp KP_NLCK  &kp UP      &none       &kp LBRC        &kp RBRC    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
                 &none       &kp LEFT     &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
-     &trans     &kp HOME    &kp ENd      &kp PG_UP   &kp PG_DN   &kp LPAR        &kp RPAR    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &none      
+     &trans     &kp HOME    &kp END      &kp PG_UP   &kp PG_DN   &kp LPAR        &kp RPAR    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &none      
                                          &trans      &trans      &trans          &mo ADJ     &kp KP_N0   &kp EQUAL     
                         >;
                 };
