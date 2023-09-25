@@ -53,8 +53,7 @@
                 COMBO(ctrl+x, &kp LC(X), 21 22)
                 COMBO(ctrl+f, &kp LC(F), 12 13)
                 COMBO(win+d, &kp LG(D), 10 12)
-                COMBO(alt+tab, &kp LA(TAB), 11 33)
-
+                COMBO(win, &kp LGUI, 05 06)
     };
 
     macros {
@@ -76,13 +75,13 @@ label= "BASE"                              ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃    ESC    ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃   SHIFT   ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃           ┃   BSPC    ┃
+//                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃    RALT   ┃   BSPC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U         &kp I       &kp O       &kp P
-                    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &mt LSHFT J   &mt LCTRL K &mt LALT L  &kp SEMI
+                    &kp A       &mt LALT S  &mt LCTRL D &mt LSHFT F &kp G           &kp H       &mt LSHFT J   &mt LCTRL K &mt LALT L  &kp SEMI
     &mt LSHFT ESC   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M         &kp COMMA   &kp DOT     &kp FSLH    &kp LSHFT
                                             &kp DEL     &lt NAV TAB &kp SPACE       &kp RET     &lt SYM RALT  &kp BSPC
                         >;
