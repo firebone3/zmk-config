@@ -54,6 +54,11 @@
                 COMBO(ctrl+f, &kp LC(F), 12 13)
                 COMBO(win+d, &kp LG(D), 10 12)
                 COMBO(win, &kp LGUI, 05 06)
+                COMBO(dcq, &kp LSHFT(Q), 00 01)
+                COMBO(dcw, &kp LSHFT(W), 01 02)
+                COMBO(dce, &kp LSHFT(E), 02 03)
+                COMBO(dcr, &kp LSHFT(R), 03 04)
+                COMBO(dct, &kp LSHFT(T), 04 14)
     };
 
     macros {
@@ -108,7 +113,7 @@ label= "NAVI"                              ;
 
                 &kp CAPS    &kp KP_NLCK  &kp UP      &none       &kp LBRC        &kp RBRC    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
                 &none       &kp LEFT     &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
-     &trans     &kp HOME    &kp END      &kp PG_UP   &kp PG_DN   &kp LPAR        &kp RPAR    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &none      
+     &trans     &kp HOME    &kp END      &kp PG_UP   &kp PG_DN   &kp LPAR        &kp RPAR    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &trans     
                                          &trans      &trans      &trans          &mo ADJ     &kp KP_N0   &kp EQUAL     
                         >;
                 };
