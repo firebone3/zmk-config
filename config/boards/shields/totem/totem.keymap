@@ -35,7 +35,7 @@
   quick-tap-ms = <100>;
   global-quick-tap;
   flavor = "tap-preferred";
-  tapping-term-ms = <250>;
+  tapping-term-ms = <170>;
 };
 
 &lt {
@@ -59,6 +59,21 @@
                 COMBO(dce, &kp LSHFT(E), 02 03)
                 COMBO(dcr, &kp LSHFT(R), 03 04)
                 COMBO(dct, &kp LSHFT(T), 04 14)
+    };
+
+        behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+            global-quick-tap;
+            bindings =
+                <&kp>,
+                <&kp>;
+        };
     };
 
     macros {
@@ -86,7 +101,7 @@ label= "BASE"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U         &kp I       &kp O       &kp P
-                    &kp A       &mt LALT S  &mt LCTRL D &mt LSHFT F &kp G           &kp H       &mt LSHFT J   &mt LCTRL K &mt LALT L  &kp SEMI
+                    &kp A       &hm LALT S  &hm LCTRL D &hm LSHFT F &kp G           &kp H       &hm LSHFT J   &hm LCTRL K &hm LALT L  &kp SEMI
     &mt LSHFT ESC   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M         &kp COMMA   &kp DOT     &kp FSLH    &kp LSHFT
                                             &kp DEL     &lt NAV TAB &kp SPACE       &kp RET     &lt SYM RALT  &kp BSPC
                         >;
