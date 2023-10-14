@@ -52,10 +52,10 @@
                 COMBO(ctrl+v, &kp LC(V), 23 24)
                 COMBO(ctrl+x, &kp LC(X), 21 22)
                 COMBO(win, &kp LGUI, 20 34)
-                COMBO(dcq, &kp LS(Q), 00 01)
-                COMBO(dcw, &kp LS(W), 01 02)
-                COMBO(dce, &kp LS(E), 02 03)
-                COMBO(dcr, &kp LS(R), 03 04)
+                COMBO(dcq, &kp LS(q), 00 01)
+                COMBO(dcw, &kp LS(w), 01 02)
+                COMBO(dce, &kp LS(e), 02 03)
+                COMBO(dcr, &kp LS(r), 03 04)
                 COMBO(dct, &kp LS(T), 04 14)
     };
 
@@ -125,7 +125,7 @@ label= "NAVI"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp CAPS    &kp KP_NLCK  &kp UP      &none       &kp LBRC        &kp RBRC    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
-                &none       &kp LEFT     &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
+                &none       &kp LEFT     &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp MINUS
      &trans     &kp HOME    &kp END      &kp PG_UP   &kp PG_DN   &kp LPAR        &kp RPAR    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &trans     
                                          &trans      &trans      &trans          &mo ADJ     &kp KP_N0   &kp EQUAL     
                         >;
@@ -202,7 +202,7 @@ label= "GAME"                             ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &KP ESC     &none       &kp UP      &none       &none           &kp Y       &kp U       &kp I       &kp O       &kp P
+                &kp ESC     &none       &kp UP      &none       &none           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &none       &kp LEFT    &kp DOWN    &kp RIGHT   &none           &kp H       &kp J       &kp K       &kp L       &kp SEMI
     &tog GAME   &kp ESC     &none       &none       &none       &none           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp LSHFT      
                                         &trans      &kp RET     &kp UP          &kp UP      &kp V       &kp B
