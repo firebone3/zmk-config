@@ -52,10 +52,10 @@
                 COMBO(ctrl+v, &kp LC(V), 23 24)
                 COMBO(ctrl+x, &kp LC(X), 21 22)
                 COMBO(win, &kp LGUI, 20 34)
-                COMBO(dcq, &kp LS(q), 00 01)
-                COMBO(dcw, &kp LS(w), 01 02)
-                COMBO(dce, &kp LS(e), 02 03)
-                COMBO(dcr, &kp LS(r), 03 04)
+                COMBO(dcq, &kp LS(Q), 00 01)
+                COMBO(dcw, &kp LS(W), 01 02)
+                COMBO(dce, &kp LS(E), 02 03)
+                COMBO(dcr, &kp LS(R), 03 04)
                 COMBO(dct, &kp LS(T), 04 14)
     };
 
